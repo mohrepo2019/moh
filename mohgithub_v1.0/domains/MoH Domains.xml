@@ -9,7 +9,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>3 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date Time" directorySegmentName="seg_0" id="6E31F26F-C22B-DA89-60E4-525BD8B722D8">
 <createdBy>Administrator</createdBy>
@@ -18,7 +18,7 @@
 <importedID>6E31F26F-C22B-DA89-60E4-525BD8B722D8</importedID>
 <avTSortOrder>0</avTSortOrder>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT015</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Flag" id="6F152296-2292-D962-99EA-6DD2572CB1B9">
 <createdBy>Administrator</createdBy>
@@ -28,7 +28,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>1 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Varchar ID Long" id="A5A0BE2D-0CA0-AA5E-7274-AEA53AB2D080">
 <createdBy>Administrator</createdBy>
@@ -38,7 +38,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>10 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Numeric ID" directorySegmentName="seg_0" id="D7F887A5-7734-7176-5E27-B7E4944A34F9">
 <createdBy>Administrator</createdBy>
@@ -49,7 +49,7 @@
 <dataTypePrecision>10</dataTypePrecision>
 <dataTypeSize>10</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Descriptions" id="DED26AD2-89FB-AC26-7B95-D060D448D583">
 <createdBy>Administrator</createdBy>
@@ -59,7 +59,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>30 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Person Name" directorySegmentName="seg_0" id="F030D121-33A1-4544-8E32-F0F2A37AC976">
 <createdBy>Administrator</createdBy>
@@ -69,7 +69,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>30 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="Phone Number" id="F29BEB44-9E5E-D0A8-32EF-0FE999C6021D">
 <createdBy>Administrator</createdBy>
@@ -79,7 +79,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>12 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 <Domain class="oracle.dbtools.crest.model.design.Domain" name="eMail" id="FDF04099-B985-6CDF-380D-2D541068E473">
 <createdBy>Administrator</createdBy>
@@ -89,7 +89,7 @@
 <avTSortOrder>0</avTSortOrder>
 <dataTypeSize>20 BYTE</dataTypeSize>
 <fileName>MoH Domains</fileName>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT017</logicalDatatype>
 </Domain>
 </domains>
 </DomainFile>
