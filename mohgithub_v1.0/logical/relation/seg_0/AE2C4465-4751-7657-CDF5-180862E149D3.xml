@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RE Land vs Land Draw Lands" directorySegmentName="seg_0" id="AE2C4465-4751-7657-CDF5-180862E149D3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 19:48:37 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>19AF62C1-CD5B-EF91-93DC-B8593FC00355</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A144436F-572E-6AD3-675F-F310929FD4E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D9234F4-C89C-CD08-D8E5-F6E45BF2C96D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

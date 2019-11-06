@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RE may be Building" directorySegmentName="seg_0" id="8B7FF08F-06CD-A5AC-1E39-9B2DBC0A874A">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 06:10:06 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>ACD5AB0D-719C-FD6F-9D10-2F522ECF4510</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73F8BA6A-D927-0659-7424-A8F94F293F40</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>638C8869-262C-10B8-CFE6-E03DE80E24BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

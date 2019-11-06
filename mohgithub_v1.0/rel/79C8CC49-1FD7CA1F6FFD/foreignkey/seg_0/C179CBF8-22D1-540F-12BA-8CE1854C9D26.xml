@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C179CBF8-22D1-540F-12BA-8CE1854C9D26" containerWithKeyObject="C1E367E6-3924-B633-DBBA-8610E74CF274" localFKIndex="C3F819F7-7CE7-9EAD-3F76-DA7C2036F8F8" name="Land_Request_EServices_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>CCAA44FB-C242-04E3-8C1D-2A441958DF2B</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<referredTableLongName>EServices</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A19E9DD-0D73-C5BC-35CA-77532E4572BC</referredTableID>
+<keyObject>BF2E99D3-F231-65CB-9A5E-A2A7E9DB5A6E</keyObject>
+<referredKeyID>BF2E99D3-F231-65CB-9A5E-A2A7E9DB5A6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Service_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

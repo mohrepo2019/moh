@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Village vs Land Request Residental" directorySegmentName="seg_0" id="76BE72EC-5DB4-8CD8-6FD7-AA8ADF5AE6E5">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:59:22 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>6BDF5DAB-B7D8-8CFE-9AEE-42A899F5377F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA36839F-E1E5-061B-0662-3EFB23894A83</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03495979-FB62-AE08-051C-77F4C567AE0B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

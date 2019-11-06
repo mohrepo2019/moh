@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="872981D5-BACB-346B-6FDF-4BF8C5950538" name="Working Status Lookup">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:38:58 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Working Status ID" id="EDBB9AC2-EEC3-9A11-83D8-1004ADD63D8B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:39:07 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Working Status English" id="E0FD8EAB-80BE-AE64-62F0-174ADF243D0B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:39:20 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Working Status Arabic" id="4E144EE2-708E-B043-FE15-5F173EBE8C87">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:39:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C2C787F-7B18-248B-15C7-E434928D5B5B" name="Working Status Lookup PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:39:15 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EDBB9AC2-EEC3-9A11-83D8-1004ADD63D8B</newElementsIDs>
+<usedAttributes>
+<attributeRef>EDBB9AC2-EEC3-9A11-83D8-1004ADD63D8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

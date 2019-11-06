@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Company has one more Partner" directorySegmentName="seg_0" id="45F7C775-92B7-2BAC-0A03-B2961A890093">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 05:31:15 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>6C6588EC-E32D-0DCB-A673-ECC0AAC6BCA9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C304894-52C9-7CC7-A621-C62B7A54D17D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F8E8B9E-CCBD-126D-E97E-E5E14A66C84F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

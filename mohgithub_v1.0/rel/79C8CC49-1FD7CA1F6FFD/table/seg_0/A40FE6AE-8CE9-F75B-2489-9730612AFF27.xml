@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A40FE6AE-8CE9-F75B-2489-9730612AFF27" name="Transaction">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>252656D9-8B46-A182-310F-7FA25D51E02E</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

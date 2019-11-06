@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A2B57E1-4A81-876B-67E0-A4BFFC96AFB5" name="Land Request Document">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 15:14:12 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="FC0A349A-2B0C-C5F2-166D-C301CEBCE2BE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 15:14:55 UTC</createdTime>
+<generatorID>F353D24F-1849-054E-7F52-BFD09F753055</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>492992A9-C76A-3E66-F805-59FCD0D18823</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Document Type ID" id="C3700DDB-6B77-557B-CCC6-BB95E550BC50">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 15:14:35 UTC</createdTime>
+<generatorID>54F3AFFC-FA4D-3204-EF6C-FAB013143629</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>6F68343A-2186-9A4E-B4F6-87422F31661F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="96C8348A-6678-B062-B05F-664543F7CBD1">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-06 14:13:36 UTC</createdTime>
+<generatorID>F353D24F-1849-054E-7F52-BFD09F753055</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>EC0B88A5-85B6-3D33-424D-32DED742888B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

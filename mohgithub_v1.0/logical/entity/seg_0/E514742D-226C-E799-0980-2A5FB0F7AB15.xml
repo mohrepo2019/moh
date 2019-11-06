@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E514742D-226C-E799-0980-2A5FB0F7AB15" name="Real Estate File">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 06:35:33 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Krooki ID" id="F489C97F-4F49-F62B-B008-8B06EFB62D4A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:27:48 UTC</createdTime>
+<generatorID>217C5A39-49E3-2F4A-976E-24DA27D61243</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>2B297CAC-45EA-9454-8908-E402B038E7DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Document Type ID" id="D75E79D8-2F45-4C65-0C3F-504E7D694E12">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:46:00 UTC</createdTime>
+<generatorID>9CCEF6EE-8CBC-0040-6077-C36EADCCFD00</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>6F68343A-2186-9A4E-B4F6-87422F31661F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="718B0301-20A6-3F9E-C120-11D44387E0CB" name="RE File PK">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 06:36:09 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F489C97F-4F49-F62B-B008-8B06EFB62D4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

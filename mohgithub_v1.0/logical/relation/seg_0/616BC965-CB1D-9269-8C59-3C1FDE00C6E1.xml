@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Applicant ID vs Spouse ID" directorySegmentName="seg_0" id="616BC965-CB1D-9269-8C59-3C1FDE00C6E1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:17:37 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>C50977AB-9A55-34B4-D155-4B316A14ED12</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C084D6B8-471C-11EB-5223-FF4AD985082A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9582DA66-67D8-3D85-D340-3CEB0096FB59</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

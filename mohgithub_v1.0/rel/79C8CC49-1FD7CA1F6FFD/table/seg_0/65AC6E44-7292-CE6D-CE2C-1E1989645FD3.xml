@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65AC6E44-7292-CE6D-CE2C-1E1989645FD3" name="ID_Type">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>C7B85063-27D5-082E-8193-EDAF7A37759E</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<abbreviation>for Omani 1, 2 Omani with Passport, 3 US data (United System)</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attribute_1" id="53D85E39-F242-E80B-C7FD-D3452D4E901A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>709B53A7-6C97-7E5F-A0DA-4CF8F7240AF3</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Type_ID" id="ED5C2DA4-5BF6-30A2-4C74-E650D9CDCE0C">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>3DC15EBE-BC10-4D1B-069E-3C499E3FC01E</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5721C4E-1C89-7D28-07E4-FA785AE690CA" name="Province Lookup">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:17:32 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Governorate ID" id="09A47EC5-0330-98C8-7CD5-6E38AE3CFB64">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 12:20:36 UTC</createdTime>
+<generatorID>94E11CEE-A083-4C25-A60E-2534C61E5CAA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>8F656B82-C229-2184-2F28-E1FD6F5DF4E9</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Province ID" id="5E8A1D7C-4A64-8336-AFCC-6ECAD75B4F52">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:17:39 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provinces Englisn" id="8C1A2C89-DA61-AC48-982F-304E7B91B5E7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:17:47 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Province Arabic" id="D610A23C-FECF-F0E6-9F53-9B3CC2C0D913">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:18:20 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C93AD2E4-CA58-C37F-6564-BDD615BE29EB" name="Provinces Lookup PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:18:45 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>5E8A1D7C-4A64-8336-AFCC-6ECAD75B4F52,94E11CEE-A083-4C25-A60E-2534C61E5CAA</newElementsIDs>
+<usedAttributes>
+<attributeRef>5E8A1D7C-4A64-8336-AFCC-6ECAD75B4F52</attributeRef>
+<attributeRef>09A47EC5-0330-98C8-7CD5-6E38AE3CFB64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

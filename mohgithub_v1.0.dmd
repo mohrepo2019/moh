@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mohgithub_v1.0" id="5842A490-C958-E5BA-58A9-18ED4F7DCAB4" version="3.5">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-08-27 10:50:54 UTC</createdTime>
+<ownerDesignName>MoH V0.1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5842A490-C958-E5BA-58A9-18ED4F7DCAB4</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Gender vs Partner" directorySegmentName="seg_0" id="5EFE1A6F-CF36-88B2-EC42-ACE9E90205F6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 15:07:58 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>E8477187-BD10-882A-551E-31C3B42C1BEC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63C576FD-268C-3DDA-289A-A6240F03BCF7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F8E8B9E-CCBD-126D-E97E-E5E14A66C84F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

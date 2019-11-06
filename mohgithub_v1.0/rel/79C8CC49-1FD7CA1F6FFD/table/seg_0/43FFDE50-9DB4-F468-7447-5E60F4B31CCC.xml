@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43FFDE50-9DB4-F468-7447-5E60F4B31CCC" name="RE_Ownership">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>308FAD5E-C711-7DE8-A18E-648F48E69286</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWR_ID" id="6484429A-AECE-3F15-DCBC-3DD6064EE252">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>BFB07AE9-C8B8-B104-E78B-08EB1CF08CEF</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8539FF65-3B38-CAAD-5B62-26C289913CBE" referredColumn="CDCA8E4E-0EF8-919A-C8AA-C6FBC340197C"/>
+</associations>
+</Column>
+<Column name="Krooki_ID" id="34092A6B-C033-7D0A-B989-F4AE68912D0A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>764F611A-188A-CEB0-4F6F-CBE963522DDA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0618D637-C6A4-DBDC-0888-20A1597B3F1C" referredColumn="205741BD-51AF-AB9D-202B-C58C332282B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0731D6B-343C-51C7-E21E-83A8FAA49981" name="RE_OWN_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>CCBC9DC3-5A42-F4F2-FBE5-71D17D68F3DD</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6484429A-AECE-3F15-DCBC-3DD6064EE252"/>
+<colUsage columnID="34092A6B-C033-7D0A-B989-F4AE68912D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="138C9958-A10D-0565-845D-5C6D90A8C4B3" name="RE_OWN_RE_OBJ_DAT_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>9A4EFE8E-3B9A-F3FC-802D-8303C65C93EA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34092A6B-C033-7D0A-B989-F4AE68912D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DB922B3-BFE0-87AA-F421-F89CFF8AF010" name="RE_OWN_RE_OWR_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>D169D30E-4193-F920-017D-0E4011D4DFEF</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6484429A-AECE-3F15-DCBC-3DD6064EE252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

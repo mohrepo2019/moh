@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B358AC2-CA76-2327-AD15-2C4C0C643AFD" containerWithKeyObject="6F5F4B99-02D9-23DD-3E06-AD2F2009CA3B" localFKIndex="C3EF41A1-3ABA-7292-C80F-D19F9049F13B" name="RE_FIL_RE_OBJ_DAT_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>217C5A39-49E3-2F4A-976E-24DA27D61243</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<referredTableLongName>RE_Object_Data</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E5C591DD-124A-B401-7BA9-BA20FEDB8EE8</referredTableID>
+<keyObject>62A2C35C-2862-A7FA-2A92-24D4C01C50A3</keyObject>
+<referredKeyID>62A2C35C-2862-A7FA-2A92-24D4C01C50A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Krooki_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

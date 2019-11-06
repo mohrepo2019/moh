@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7806BFFF-42C8-9DFF-AE9C-06AC312FAA17" name="RE_Building">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>638C8869-262C-10B8-CFE6-E03DE80E24BD</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Krooki_ID" id="B6879D63-BD69-8859-DBC7-E8BB1EEDB216">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>128A2581-9BCA-DEB4-D1FA-7F1307546AB2</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16447AF1-0A81-87A5-43D5-E2A344FAEAEA" referredColumn="205741BD-51AF-AB9D-202B-C58C332282B2"/>
+</associations>
+</Column>
+<Column name="Krooki_Number" id="7B5F0153-8404-2FDA-2D5B-84B304131F41">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>198621D5-136B-67F3-CBC4-2374FDAA7A5D</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6526E4B-B37E-0EE0-1A85-83CCCD781D3D" name="RE_BLD_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>83F2C9FA-AC47-A81B-B690-5D6D8A1C2420</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6879D63-BD69-8859-DBC7-E8BB1EEDB216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11F5F7AF-BCBE-0E98-E97E-6718865ACF14" name="RE_BLD_RE_OBJ_DAT_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>8B7FF08F-06CD-A5AC-1E39-9B2DBC0A874A</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6879D63-BD69-8859-DBC7-E8BB1EEDB216"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

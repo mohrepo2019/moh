@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7283F640-3370-E43A-BD62-3AAA5170D0E2" name="Land_Application_Type">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>5548DA10-0340-0ADA-43F9-5CE8CDA1C149</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Land_Application_Type_ID" id="8C9F827C-2274-7A19-9BA2-40028B72603F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>009C61DC-A0ED-E3D5-E536-C96D820C2C31</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Land_Application_Type_English" id="EB435901-B448-D461-9D76-3AA085E3A5AF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>A5498808-E747-E12E-12A5-EC34DC8BE67B</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Land_Application_Type_Arabic" id="47CAB3B6-D605-D388-2D8D-E41A857008C3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>76F9086C-D7B7-CA1B-AFD1-1D67ED8592B5</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48F1B6FF-2907-2BB1-B062-E888B6A69E3A" name="Land_Application_Type_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>1818936E-580A-4572-8EDA-7F12A4240411</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C9F827C-2274-7A19-9BA2-40028B72603F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="308FAD5E-C711-7DE8-A18E-648F48E69286" name="RE Ownership">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-08-27 10:56:11 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OWNER ID" id="BFB07AE9-C8B8-B104-E78B-08EB1CF08CEF">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-23 18:31:48 UTC</createdTime>
+<generatorID>D169D30E-4193-F920-017D-0E4011D4DFEF</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>058272D9-FF9E-8325-AFE5-C07746AB6884</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Krooki ID" id="764F611A-188A-CEB0-4F6F-CBE963522DDA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:27:48 UTC</createdTime>
+<generatorID>9A4EFE8E-3B9A-F3FC-802D-8303C65C93EA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>2B297CAC-45EA-9454-8908-E402B038E7DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valid Start Date" id="AA24CB03-7304-E965-6776-4736C176361F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:37:34 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valid End Date" id="2C303BEE-3750-6AFF-1A12-1915FB4B8371">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:38:14 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCBC9DC3-5A42-F4F2-FBE5-71D17D68F3DD" name="RE Ownership PK">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-23 18:34:58 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFB07AE9-C8B8-B104-E78B-08EB1CF08CEF</attributeRef>
+<attributeRef>764F611A-188A-CEB0-4F6F-CBE963522DDA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

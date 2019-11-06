@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5C591DD-124A-B401-7BA9-BA20FEDB8EE8" name="RE_Object_Data">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>73F8BA6A-D927-0659-7424-A8F94F293F40</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Krooki_ID" id="205741BD-51AF-AB9D-202B-C58C332282B2">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>2B297CAC-45EA-9454-8908-E402B038E7DB</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Krooki_No" id="9C24DB6A-0BDB-9513-809F-556161E91AA1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>B24BF0AA-8778-C1D9-52FE-77EBEBF789E8</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62A2C35C-2862-A7FA-2A92-24D4C01C50A3" name="RE_OBJ_DAT_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>ACD5AB0D-719C-FD6F-9D10-2F522ECF4510</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="205741BD-51AF-AB9D-202B-C58C332282B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AB6E625-554C-8C5A-B9E4-97A4F02A3B42" name="Partner">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>6F8E8B9E-CCBD-126D-E97E-E5E14A66C84F</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Partner_ID" id="A711716D-DEA8-5BB9-A2A9-A76859972518">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>1ADF26C4-CCB3-AA8B-B0DB-7A723122B4FE</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partner_Civil_ID" id="FD844CF8-CDED-9699-B33B-3689AAB330B3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>2593402B-5247-400F-1CFE-0615BBD84301</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partner_First_Name" id="C327D321-F7CE-7D5F-577D-F3E1DE723307">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>EF9995EE-6156-98DF-D515-996DEBE73381</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Partner_Second_Name" id="6722E0BA-5575-A2BF-DFEF-68BAE9979FB2">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>CDE4E001-F3CF-4533-BAA9-0C65BDE70F6D</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OWR_ID" id="6970BF0F-E065-B6DB-65C6-17C6C14C0588">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>28E07F47-6F9E-E912-D500-B214A57724BE</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E4FB26B-B88F-1AC8-343B-D725084D5F1A" referredColumn="F4DF4944-93F5-A5FD-F41E-37BEA0DF2FD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB78488F-913A-4D9B-CFC3-6E3F641CC8FB" name="PTE_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>DC197EB9-389E-D929-E615-DDDE5C93E654</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A711716D-DEA8-5BB9-A2A9-A76859972518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE4C75B0-DC9E-25F8-FA5D-132BD4DCE3B1" name="PTE_CPY_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>45F7C775-92B7-2BAC-0A03-B2961A890093</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6970BF0F-E065-B6DB-65C6-17C6C14C0588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

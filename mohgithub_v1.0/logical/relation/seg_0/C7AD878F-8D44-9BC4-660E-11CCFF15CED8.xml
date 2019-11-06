@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Applicant Status vs Applicant" directorySegmentName="seg_0" id="C7AD878F-8D44-9BC4-660E-11CCFF15CED8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:33:40 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>FE7B41FA-2EBF-1D7C-27E7-2557BDACFA84</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1F3E1A6-1652-54C0-85BD-8182F3299D47</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C084D6B8-471C-11EB-5223-FF4AD985082A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

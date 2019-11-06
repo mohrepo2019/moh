@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Land Application ID" directorySegmentName="seg_0" id="77E225F5-FA50-6F38-BFBB-FAC44C5D0254">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:46:41 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>1818936E-580A-4572-8EDA-7F12A4240411</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5548DA10-0340-0ADA-43F9-5CE8CDA1C149</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BDC1742D-5EF3-E4EA-6FCB-4345609B9C0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

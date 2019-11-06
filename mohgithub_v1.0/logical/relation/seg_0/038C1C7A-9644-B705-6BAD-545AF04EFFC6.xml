@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Land Subuse vs RE Land" directorySegmentName="seg_0" id="038C1C7A-9644-B705-6BAD-545AF04EFFC6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 19:17:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>13A09D4B-2ECB-7559-9188-591F3632616A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFE3CF36-D882-D0A9-D0A9-3F8F40157874</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A144436F-572E-6AD3-675F-F310929FD4E8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

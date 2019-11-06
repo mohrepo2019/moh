@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="MoH Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date Time" directorySegmentName="seg_0" id="6E31F26F-C22B-DA89-60E4-525BD8B722D8">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2019-11-01 06:33:17 UTC</createdTime>
+         <ownerDesignName>MoH Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>MoH Domains</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Numeric ID" directorySegmentName="seg_0" id="D7F887A5-7734-7176-5E27-B7E4944A34F9">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2019-10-31 14:41:28 UTC</createdTime>
+         <ownerDesignName>MoH Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>MoH Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2019-10-31 14:40:56 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Person Name" directorySegmentName="seg_0" id="F030D121-33A1-4544-8E32-F0F2A37AC976">
+         <createdBy>Administrator</createdBy>
+         <createdTime>2019-10-31 14:41:03 UTC</createdTime>
+         <ownerDesignName>MoH Domains</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>30 BYTE</dataTypeSize>
+         <fileName>MoH Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

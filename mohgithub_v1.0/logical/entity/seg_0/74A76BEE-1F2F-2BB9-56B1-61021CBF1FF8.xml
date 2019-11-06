@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74A76BEE-1F2F-2BB9-56B1-61021CBF1FF8" name="Work Sector Type Lookup">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:41:16 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Work Sector Type ID" id="791A8556-FDF6-CBD2-CE11-B097F1D20A4D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:41:26 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Sector Type Arabic" id="AA4DBF49-E76C-A3D5-69B0-88CAE7A23E92">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:42:57 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Sector Type English" id="D5629C9D-8F1F-E1B9-7ABD-1B4206406269">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:41:49 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DED26AD2-89FB-AC26-7B95-D060D448D583</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FA0CDC0-97BE-1D34-5D25-F8F3FDF26E00" name="Work Sector Type Lookup PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:43:29 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>791A8556-FDF6-CBD2-CE11-B097F1D20A4D</newElementsIDs>
+<usedAttributes>
+<attributeRef>791A8556-FDF6-CBD2-CE11-B097F1D20A4D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

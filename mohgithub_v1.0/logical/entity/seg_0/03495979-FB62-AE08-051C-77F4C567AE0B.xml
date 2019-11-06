@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03495979-FB62-AE08-051C-77F4C567AE0B" name="Land Request Residental Details">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:49:57 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="900F9F97-1626-B237-47E1-84988E24EF7C">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:50:19 UTC</createdTime>
+<generatorID>AF14804D-18D9-A047-05D5-84E23BC9FBF8</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>492992A9-C76A-3E66-F805-59FCD0D18823</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Request Place" id="A063D3AB-EA51-8497-C1E7-3B7543812AD7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:51:55 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Request Governorate ID" id="2BA82A1C-8AB9-D7A7-A2E2-39DFDABDFD9C">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:31:28 UTC</createdTime>
+<generatorID>76BE72EC-5DB4-8CD8-6FD7-AA8ADF5AE6E5</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>52D50755-488C-2DD1-7433-0D99944FB0C4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Request Province ID" id="BC71D3BD-2844-B212-8215-1F28260A6185">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:30:46 UTC</createdTime>
+<generatorID>76BE72EC-5DB4-8CD8-6FD7-AA8ADF5AE6E5</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>9E33C65F-A9B1-DEF3-80E0-5F246AF26472</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Request Village ID" id="36D9A29D-2CA4-AD44-8E64-FDF85DCF966B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:59:22 UTC</createdTime>
+<generatorID>76BE72EC-5DB4-8CD8-6FD7-AA8ADF5AE6E5</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>23E3214D-F6A6-96A5-D6C0-F75C88F6594E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="FED0FA3D-B043-5978-3AAD-E556F2986132">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-06 14:13:36 UTC</createdTime>
+<generatorID>AF14804D-18D9-A047-05D5-84E23BC9FBF8</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>EC0B88A5-85B6-3D33-424D-32DED742888B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85C20E3A-47A0-8CCC-55E8-76D44FF4427E" name="Land Request Residental PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:57:44 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>900F9F97-1626-B237-47E1-84988E24EF7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

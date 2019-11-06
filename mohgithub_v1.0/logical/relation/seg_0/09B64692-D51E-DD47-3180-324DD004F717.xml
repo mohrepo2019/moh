@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Service ID" directorySegmentName="seg_0" id="09B64692-D51E-DD47-3180-324DD004F717">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:46:18 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>A0B28CB2-F906-F0E9-A038-C6F1FF25F4C0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BB993A50-4399-8BBF-29B6-4409D4F1ACC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BDC1742D-5EF3-E4EA-6FCB-4345609B9C0E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

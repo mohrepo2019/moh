@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9582DA66-67D8-3D85-D340-3CEB0096FB59" name="Spouse Details">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:00:06 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="24F46719-3D29-C5CD-6D9A-4BC7159A9D3E">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:19:08 UTC</createdTime>
+<generatorID>616BC965-CB1D-9269-8C59-3C1FDE00C6E1</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>9492C7A5-C4A2-E2DD-7896-7B5E8CB3D0F7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="A0B19DEF-4170-D560-CD8B-F01EB65249F2">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:42:45 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5A0BE2D-0CA0-AA5E-7274-AEA53AB2D080</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Spouse ID" id="E9C95AE3-FA2C-74EC-FDCA-562E58B596A6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:00:34 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A5A0BE2D-0CA0-AA5E-7274-AEA53AB2D080</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Spouse Name" id="9BDEAE94-007E-BD2B-10F1-6E49522079FF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:26:25 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="1A4B87A5-B5AC-B505-1D1B-30C395C96679">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-06 14:13:36 UTC</createdTime>
+<generatorID>616BC965-CB1D-9269-8C59-3C1FDE00C6E1</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>3DB77692-1E87-CBD8-30FE-CEEF2293DB57</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3A03462-03DC-31F8-5FBA-7A954AB6B4B9" name="Spouse Details PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:23:20 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0B19DEF-4170-D560-CD8B-F01EB65249F2</attributeRef>
+<attributeRef>E9C95AE3-FA2C-74EC-FDCA-562E58B596A6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

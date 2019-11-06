@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Martial Status vs Partner" directorySegmentName="seg_0" id="E79C9394-3E4B-879C-1760-E5B1F3601751">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 15:08:13 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>59966A1E-2AAB-B2B3-45C4-C399E369CA03</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>968FA99A-F2AC-CCE4-4AA4-BD76B47F5924</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F8E8B9E-CCBD-126D-E97E-E5E14A66C84F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

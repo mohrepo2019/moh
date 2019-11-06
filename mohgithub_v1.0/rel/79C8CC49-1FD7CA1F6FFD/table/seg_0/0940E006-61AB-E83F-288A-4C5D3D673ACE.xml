@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0940E006-61AB-E83F-288A-4C5D3D673ACE" name="RE_Land">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>A144436F-572E-6AD3-675F-F310929FD4E8</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Krooki_ID" id="02E4F9FC-B563-DD69-2CB8-742EEA564465">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>54B0A339-F6C4-7138-18D7-A20150D368C0</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74557195-B8F7-A92B-5E33-8AFDC26E74F9" referredColumn="205741BD-51AF-AB9D-202B-C58C332282B2"/>
+</associations>
+</Column>
+<Column name="Krooki_Number" id="4D0F96C7-6B3B-A929-F36A-D2E292A907DA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>EB592144-D707-0200-5B6A-D3B40ED9AE14</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0AA70FC-6DA2-EFD4-29B0-3EAFDACF97ED" name="RE_Land_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>19AF62C1-CD5B-EF91-93DC-B8593FC00355</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E4F9FC-B563-DD69-2CB8-742EEA564465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14826E43-286C-B7BA-F24B-A101B44A7271" name="RE_Land_RE_OBJ_DAT_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>9A24547B-4254-690B-A196-6C2F6F47F07C</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02E4F9FC-B563-DD69-2CB8-742EEA564465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

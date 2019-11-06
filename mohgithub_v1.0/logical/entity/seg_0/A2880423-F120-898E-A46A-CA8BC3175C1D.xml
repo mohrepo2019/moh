@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2880423-F120-898E-A46A-CA8BC3175C1D" name="Attorney Owner">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:49:03 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Attorney ID" id="24BBFC52-6439-2C4C-C300-C27CE84270AB">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:50:05 UTC</createdTime>
+<generatorID>3BAD4369-8EDA-17C4-7314-544EBB625A13</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>CE3D4B13-C10D-3810-8DB5-C2FFF7DF1AEB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OWNER ID" id="C1A74F2D-814D-02B5-FC5D-51194C57ADB6">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:50:35 UTC</createdTime>
+<generatorID>B91691DB-B45B-54F8-01E3-2C4ACBD141F4</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>058272D9-FF9E-8325-AFE5-C07746AB6884</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Krooki ID" id="559B187A-0EC2-D656-E6E8-45F0D6E4B362">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:51:00 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valid Start Date" id="FB36211D-BB35-100C-19E7-61C9984CA57B">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:51:18 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Valid End Date" id="1EFDC470-88CC-5ADB-E3EC-157BEA85A9BB">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:52:45 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB89A760-F764-A583-46E9-5BDEFCA03863" name="Attorney Owner PK">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:49:33 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24BBFC52-6439-2C4C-C300-C27CE84270AB</attributeRef>
+<attributeRef>C1A74F2D-814D-02B5-FC5D-51194C57ADB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

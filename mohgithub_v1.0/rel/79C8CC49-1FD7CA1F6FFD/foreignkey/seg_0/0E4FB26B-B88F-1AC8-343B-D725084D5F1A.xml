@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E4FB26B-B88F-1AC8-343B-D725084D5F1A" containerWithKeyObject="1AB6E625-554C-8C5A-B9E4-97A4F02A3B42" localFKIndex="AE4C75B0-DC9E-25F8-FA5D-132BD4DCE3B1" name="PTE_CPY_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>45F7C775-92B7-2BAC-0A03-B2961A890093</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<referredTableLongName>Company</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D13D3B16-1006-78C1-02FB-2E93D0CD025A</referredTableID>
+<keyObject>253E5047-A4B3-41D4-4191-7917367EF811</keyObject>
+<referredKeyID>253E5047-A4B3-41D4-4191-7917367EF811</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OWR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

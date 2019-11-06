@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD026409-3F7E-A969-1981-2D7386EB801C" containerWithKeyObject="CC8E8ACD-8758-C545-24F9-85F304F9316C" localFKIndex="863C340A-A0D1-D646-6201-E52171392AB7" name="ATO_OWR_ATO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>3BAD4369-8EDA-17C4-7314-544EBB625A13</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<referredTableLongName>Attorney</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C0F328E-0C58-4409-EED0-B69432E9A4AD</referredTableID>
+<keyObject>6B98E280-73E2-2ED5-18B9-3C372F9F6543</keyObject>
+<referredKeyID>6B98E280-73E2-2ED5-18B9-3C372F9F6543</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Attorney_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

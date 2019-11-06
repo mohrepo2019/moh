@@ -1,0 +1,441 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C084D6B8-471C-11EB-5223-FF4AD985082A" name="Land Request Applicant Details">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 08:35:51 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="9492C7A5-C4A2-E2DD-7896-7B5E8CB3D0F7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:18:08 UTC</createdTime>
+<generatorID>FF04FA48-C988-D6BB-485C-40A886A6E927</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>492992A9-C76A-3E66-F805-59FCD0D18823</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="D93F8C1B-C689-DE9D-4E52-D55AB970ED8A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:47:01 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Expiry Date" id="E3C4E87C-08A1-10C6-B8EA-6FA2D39A9D58">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:36:20 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First Name" id="F0352984-4910-88BA-EA70-567D26A88238">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:53:27 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Second Name" id="C4D8C58E-55B5-2438-F24F-52BA92120765">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:53:42 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Third Name" id="14091FC1-D38A-936B-FF86-119F35CE9B2D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:53:53 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fourth Name" id="775FF07A-4F85-F34F-AF85-70DA66CEA0C5">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:54:15 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Family Name" id="AD954581-CB0C-F4A4-AB69-27FA5E964260">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:54:29 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender ID" id="1C94D052-12B7-9616-1973-9A62275A9BD9">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:56:56 UTC</createdTime>
+<generatorID>649134DE-FA0E-1BEA-9680-166A235925C0</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>FD1C318D-D747-1CED-BE58-CD16BE5A8A1E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Martial Status ID" id="8AAC0EFA-CC7D-0E2F-A439-BDD8D4A4A5DE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:58:40 UTC</createdTime>
+<generatorID>C04C72A0-816A-AE99-5D49-56CBB86922A4</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>90160B1B-CA40-AE02-5383-8AB12DAD1620</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date of Birth" id="5943B021-6AA4-D652-9BBE-71E60FC871F6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:59:16 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Age" id="C2DBD9F7-FB5C-D6AE-C0A7-CE3F509A96A0">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:59:53 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birth Place" id="0D0F6EE8-A9DA-81BD-34EA-9227636D6EF6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:00:20 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Request Place" id="59FD9827-BA59-2658-D343-68104FA6B22A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 10:20:06 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home Address  Governorate ID" id="84BD3F0A-5578-7E96-7E32-DC38A6226009">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:31:28 UTC</createdTime>
+<generatorID>8F3B0A1A-E8DB-9C1E-30EE-4A262869A3DA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>52D50755-488C-2DD1-7433-0D99944FB0C4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home Address  Province ID" id="4B9BCC10-0106-0EAF-6219-2B7B8C33D2DB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:30:46 UTC</createdTime>
+<generatorID>8F3B0A1A-E8DB-9C1E-30EE-4A262869A3DA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>9E33C65F-A9B1-DEF3-80E0-5F246AF26472</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Home Address Village ID" id="B12059CB-A5C8-8AC1-F505-121D06792C81">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:22:30 UTC</createdTime>
+<generatorID>0BF930AD-91B9-D1CF-EFE0-2933145FC6D6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>23E3214D-F6A6-96A5-D6C0-F75C88F6594E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Working Status ID" id="DE7570CE-195A-2F59-2FE5-D0B77046C734">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:40:01 UTC</createdTime>
+<generatorID>CEE39CE3-F6CC-234F-9934-BA99C0D17914</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>EDBB9AC2-EEC3-9A11-83D8-1004ADD63D8B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Employer Name" id="152B07ED-6936-A7D0-0FD1-8D091BA31CF6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:45:07 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Address Governorate ID1" id="189CA116-080E-199F-A34E-845D81BB05A1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:31:28 UTC</createdTime>
+<generatorID>0BF930AD-91B9-D1CF-EFE0-2933145FC6D6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>52D50755-488C-2DD1-7433-0D99944FB0C4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Address Province ID1" id="0D24E1E4-ABE8-5FF4-78B8-056A080E19AA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 18:30:46 UTC</createdTime>
+<generatorID>0BF930AD-91B9-D1CF-EFE0-2933145FC6D6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>9E33C65F-A9B1-DEF3-80E0-5F246AF26472</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Address Village ID" id="F64DB962-2C36-664C-6874-D28DDA58031B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:25:45 UTC</createdTime>
+<generatorID>8F3B0A1A-E8DB-9C1E-30EE-4A262869A3DA</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>23E3214D-F6A6-96A5-D6C0-F75C88F6594E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mobile Number 1" id="116F4C99-380A-A992-EE62-E2DE58F8A292">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:45:25 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F29BEB44-9E5E-D0A8-32EF-0FE999C6021D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mobile Number 2" id="382CAE6B-BB94-CDA2-6A43-ED0AF5E82903">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:57:45 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F29BEB44-9E5E-D0A8-32EF-0FE999C6021D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Line Number" id="ACD45AF3-1F6B-F26E-7C31-984D4494017F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:57:55 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F29BEB44-9E5E-D0A8-32EF-0FE999C6021D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email Address" id="8229ACBC-B715-B909-88EA-4C3EC1F69DA8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 10:58:10 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Number of Wifes" id="7623DA96-CE35-08F4-DE0A-49C7D32712D8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:21:51 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Applicant Status ID" id="FC73072F-B0D3-4876-A9B0-8115A043A12B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 12:33:40 UTC</createdTime>
+<generatorID>C7AD878F-8D44-9BC4-660E-11CCFF15CED8</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>ACD4DD19-85C1-1220-D3C5-98143FBB86D0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Work Sector Type ID" id="1444E0D2-9317-77AA-7AC5-B74C3FF5E2F6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 07:01:04 UTC</createdTime>
+<generatorID>50DDBE1C-7747-B735-F63A-46283C8D82F6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>791A8556-FDF6-CBD2-CE11-B097F1D20A4D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="3DB77692-1E87-CBD8-30FE-CEEF2293DB57">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-06 14:13:36 UTC</createdTime>
+<generatorID>FF04FA48-C988-D6BB-485C-40A886A6E927</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>EC0B88A5-85B6-3D33-424D-32DED742888B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C50977AB-9A55-34B4-D155-4B316A14ED12" name="Applicant PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 08:36:19 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FF04FA48-C988-D6BB-485C-40A886A6E927</newElementsIDs>
+<usedAttributes>
+<attributeRef>9492C7A5-C4A2-E2DD-7896-7B5E8CB3D0F7</attributeRef>
+<attributeRef>3DB77692-1E87-CBD8-30FE-CEEF2293DB57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

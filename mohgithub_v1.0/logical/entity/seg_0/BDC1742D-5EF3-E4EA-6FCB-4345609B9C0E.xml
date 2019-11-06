@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDC1742D-5EF3-E4EA-6FCB-4345609B9C0E" name="Land Request Application">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:40:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="492992A9-C76A-3E66-F805-59FCD0D18823">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:40:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="EC0B88A5-85B6-3D33-424D-32DED742888B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:46:18 UTC</createdTime>
+<generatorID>09B64692-D51E-DD47-3180-324DD004F717</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>C202F469-649D-C40D-7F88-0F867BCD9F0E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Application Type ID" id="0FFA83E5-CB40-7535-938E-459D94AFA95D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:46:41 UTC</createdTime>
+<generatorID>77E225F5-FA50-6F38-BFBB-FAC44C5D0254</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>009C61DC-A0ED-E3D5-E536-C96D820C2C31</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Submission Date Time" id="C68EB525-93D6-D5A0-E47D-14BC6DFD84FF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:40:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Application Status ID" id="6418E8DB-50A0-608F-8426-F7C767F0A718">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:47:01 UTC</createdTime>
+<generatorID>E5E62CCE-DE8E-31AD-32C7-7C60B5D20C52</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>C36197A4-5105-75A7-0DB2-F3D35491BD33</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ackknowledgment" id="385C1B00-D2C7-4A22-8DFB-FECD605EE9AD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 13:17:12 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6F152296-2292-D962-99EA-6DD2572CB1B9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reject Reason ID" id="ADCFED4E-BD8E-EA61-7C95-9C1AF1EF2DBA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 13:30:01 UTC</createdTime>
+<generatorID>55C8F1E7-C00B-4DEA-833C-F91F912BCF10</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>B9A694D4-BE3B-E82A-24E3-06C1AAE2840C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Land Draw Counter" id="57E1D051-DA78-1F25-4A63-B58B631F6E8A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 08:36:43 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3475E384-7DC6-3407-276A-F182942B682B" name="Land Request Application PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 11:40:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>492992A9-C76A-3E66-F805-59FCD0D18823,09B64692-D51E-DD47-3180-324DD004F717</newElementsIDs>
+<usedAttributes>
+<attributeRef>492992A9-C76A-3E66-F805-59FCD0D18823</attributeRef>
+<attributeRef>EC0B88A5-85B6-3D33-424D-32DED742888B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

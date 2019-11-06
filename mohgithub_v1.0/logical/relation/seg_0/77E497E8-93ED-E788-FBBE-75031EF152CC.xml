@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Land Draw Data vs Land Draw Attendees" directorySegmentName="seg_0" id="77E497E8-93ED-E788-FBBE-75031EF152CC">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-05 09:41:00 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>22243C64-5317-EE2B-719C-0D7DFC4D7070</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ACA17FFD-CA2C-F368-CE06-61B9A5160375</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD2B29D3-CCA6-5C5F-F4C3-D8FAAC96D6E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

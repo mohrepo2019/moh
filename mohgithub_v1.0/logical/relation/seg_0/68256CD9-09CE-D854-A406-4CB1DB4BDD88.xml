@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RE Ownership vs eFile" directorySegmentName="seg_0" id="68256CD9-09CE-D854-A406-4CB1DB4BDD88">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:44:01 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>CCBC9DC3-5A42-F4F2-FBE5-71D17D68F3DD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>308FAD5E-C711-7DE8-A18E-648F48E69286</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FA5E6BE2-B66C-03B6-7BE3-C26C070E5348</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA5E6BE2-B66C-03B6-7BE3-C26C070E5348" name="RE Ownership eFile">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:43:37 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="OWNER ID" id="683BFAE6-ED16-999A-3394-F64DC4E5ED84">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:44:01 UTC</createdTime>
+<generatorID>68256CD9-09CE-D854-A406-4CB1DB4BDD88</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>BFB07AE9-C8B8-B104-E78B-08EB1CF08CEF</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Krooki ID" id="672AF19E-B627-5432-B671-FF1FFEB7739D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:44:01 UTC</createdTime>
+<generatorID>68256CD9-09CE-D854-A406-4CB1DB4BDD88</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>764F611A-188A-CEB0-4F6F-CBE963522DDA</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Document Type ID" id="9FA712CE-96BB-43A6-2DA7-15C5902A5582">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 14:45:39 UTC</createdTime>
+<generatorID>D5FB4BAE-CFAB-4F55-8FA3-F544BE73719A</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>6F68343A-2186-9A4E-B4F6-87422F31661F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

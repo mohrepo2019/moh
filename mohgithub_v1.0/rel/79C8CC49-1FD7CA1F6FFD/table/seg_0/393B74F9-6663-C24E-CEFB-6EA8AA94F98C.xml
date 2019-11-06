@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="393B74F9-6663-C24E-CEFB-6EA8AA94F98C" name="GCC">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>B158D9B8-CF33-7B73-E0A2-1F1794B7A09C</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OWR_ID" id="02DA77CB-22E5-38A9-500B-7039F4C8DDE1">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>02534EE5-30DB-9B0F-CF0F-8F7F50171B73</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41BFE4A0-6372-7436-C2BD-2BFB3013F05E" referredColumn="CDCA8E4E-0EF8-919A-C8AA-C6FBC340197C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="255C5A40-2662-E54B-14C0-9BCFED41E744" name="GCC_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>B92E9FAF-00B3-56B2-116E-6C11669670F3</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DA77CB-22E5-38A9-500B-7039F4C8DDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8B5963C-B627-D8B8-77A5-12FAA8FD5E5C" name="GCC_RE_OWR_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>8DB630B1-B2D9-03A1-EA64-78B32EA805D5</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02DA77CB-22E5-38A9-500B-7039F4C8DDE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

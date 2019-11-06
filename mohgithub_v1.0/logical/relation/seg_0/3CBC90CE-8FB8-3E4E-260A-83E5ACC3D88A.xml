@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Village vs Province" directorySegmentName="seg_0" id="3CBC90CE-8FB8-3E4E-260A-83E5ACC3D88A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 12:23:07 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>C93AD2E4-CA58-C37F-6564-BDD615BE29EB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5721C4E-1C89-7D28-07E4-FA785AE690CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA36839F-E1E5-061B-0662-3EFB23894A83</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

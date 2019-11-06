@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC8E8ACD-8758-C545-24F9-85F304F9316C" name="Attorney_Owner">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>A2880423-F120-898E-A46A-CA8BC3175C1D</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATO_ID" id="157C119E-2D49-A724-2C13-E3B7E7C3E6E8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>24BBFC52-6439-2C4C-C300-C27CE84270AB</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD026409-3F7E-A969-1981-2D7386EB801C" referredColumn="539BCE7C-D577-F992-CE4C-2FF292351A3C"/>
+</associations>
+</Column>
+<Column name="OWR_ID" id="03F371B3-45C2-7E12-07E2-B8F5F616CBCE">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>C1A74F2D-814D-02B5-FC5D-51194C57ADB6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F7BC1F4-9F38-318E-8B34-22CF740D3E25" referredColumn="CDCA8E4E-0EF8-919A-C8AA-C6FBC340197C"/>
+</associations>
+</Column>
+<Column name="Krooki_ID" id="E6353550-ACDD-B19B-4DF8-28786B8C3176">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>559B187A-0EC2-D656-E6E8-45F0D6E4B362</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valid_Start_Date" id="8E8DA195-A210-22B8-7F64-6D58450AFFE7">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>FB36211D-BB35-100C-19E7-61C9984CA57B</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Valid_End_Date" id="22C8FFCE-0141-30EE-3AAB-291728BB8477">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>1EFDC470-88CC-5ADB-E3EC-157BEA85A9BB</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3383AC17-0B9C-395D-16A9-4D1E6D033D88" name="ATO_OWR_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>BB89A760-F764-A583-46E9-5BDEFCA03863</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="157C119E-2D49-A724-2C13-E3B7E7C3E6E8"/>
+<colUsage columnID="03F371B3-45C2-7E12-07E2-B8F5F616CBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="863C340A-A0D1-D646-6201-E52171392AB7" name="ATO_OWR_ATO_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>3BAD4369-8EDA-17C4-7314-544EBB625A13</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="157C119E-2D49-A724-2C13-E3B7E7C3E6E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C72B56F-300E-B9A5-7510-C3C6F6DFEEBA" name="ATO_OWR_RE_OWR_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-01 07:37:33 UTC</createdTime>
+<generatorID>B91691DB-B45B-54F8-01E3-2C4ACBD141F4</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03F371B3-45C2-7E12-07E2-B8F5F616CBCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1E367E6-3924-B633-DBBA-8610E74CF274" name="Land_Request">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>C084D6B8-471C-11EB-5223-FF4AD985082A</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Application_ID" id="9D9330B1-1D2E-8689-CF72-C012EA497547">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>679FACFD-E4DA-34F2-3EE9-FD10648BA99F</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Service_ID" id="32597D05-21C1-05B9-F0F1-B348837D7D0B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>AF725A59-4D7F-5D06-BB20-37338A569868</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C179CBF8-22D1-540F-12BA-8CE1854C9D26" referredColumn="8515284E-CBBA-D354-6824-013F23A35974"/>
+</associations>
+</Column>
+<Column name="Land_Application_Type_ID" id="4712743F-BAD0-BED3-BE64-AC0063F6460D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>AD14F55B-8C62-4569-7C5B-C446D9958676</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC1FBE85-6E02-4F8C-88A5-60DD960BFFF0" referredColumn="8C9F827C-2274-7A19-9BA2-40028B72603F"/>
+</associations>
+</Column>
+<Column name="Application_Status_ID" id="C7718C0F-288E-93CE-9A01-7BB56F7780C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>55F0E17C-80BC-72F4-E629-FE7C07A9BAF6</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4501078-A874-A60A-BE35-365CBC0A6A71" referredColumn="9E489E56-A663-0490-2E82-1293176EFA88"/>
+</associations>
+</Column>
+<Column name="Land_Request_Place" id="CDE2CF9B-90A5-C471-4F71-17770B6A76D8">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>446317E1-0D9D-2F7D-BEDE-7F300536731C</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Submission_Date_Time" id="38C5AABF-B0CB-F33C-F6D7-A934F179589D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>DBBA2E4D-1EAA-D907-4DDA-14DB5727AC94</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Citizen_ID" id="3E579D7D-7DA2-4CE5-5862-6828071DF73F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>D93F8C1B-C689-DE9D-4E52-D55AB970ED8A</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEBC1856-8015-B325-6B79-1C8429AC0570" name="Land_Request_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>C50977AB-9A55-34B4-D155-4B316A14ED12</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D9330B1-1D2E-8689-CF72-C012EA497547"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="034A8FA8-C6F1-7EE7-77E7-AC50B2ED22CF" name="Land_Request_Application_Status_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>FA03F023-8F61-C60C-364C-D5DAFEB385F4</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7718C0F-288E-93CE-9A01-7BB56F7780C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB282B1-5AC2-05B4-500C-360ABE90ADD1" name="Land_Request_Land_Application_Type_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>5110ECCD-18A0-8B32-C03D-6373E8692784</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4712743F-BAD0-BED3-BE64-AC0063F6460D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3F819F7-7CE7-9EAD-3F76-DA7C2036F8F8" name="Land_Request_EServices_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 09:51:13 UTC</createdTime>
+<generatorID>CCAA44FB-C242-04E3-8C1D-2A441958DF2B</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32597D05-21C1-05B9-F0F1-B348837D7D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

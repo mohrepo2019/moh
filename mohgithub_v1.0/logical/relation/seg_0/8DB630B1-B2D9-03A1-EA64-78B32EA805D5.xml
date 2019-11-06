@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Owner may be GCC Citizen" directorySegmentName="seg_0" id="8DB630B1-B2D9-03A1-EA64-78B32EA805D5">
+<createdBy>Feroz</createdBy>
+<createdTime>2019-10-24 09:06:12 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<sourcePk>3F5CA47C-BF62-161C-6E9D-3613C8E46EF3</sourcePk>
+<dominantRole>6AD3C23A-76B5-DABF-A7CC-7137BC87661A</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6AD3C23A-76B5-DABF-A7CC-7137BC87661A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>B158D9B8-CF33-7B73-E0A2-1F1794B7A09C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

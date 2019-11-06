@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AD61026-098A-E12F-9736-8BA11796673D" name="RE Application Request">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-03 14:05:02 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Application ID" id="1B188050-894C-1BDD-46F4-015F05893B6C">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-03 14:05:11 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Transaction ID" id="C66E7138-6AE2-6813-90F3-1FFCD2944B5A">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-03 14:05:19 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Citizen ID" id="975DF0BF-21F9-3CCC-1842-15B49A60AB8F">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-03 14:05:41 UTC</createdTime>
+<generatorID>96E82E8B-918C-E5CB-78AF-CA3B490A4A6C</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>4C74F480-343A-9029-5553-F94D6CD84347</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last Updated" id="E703D6CF-19A7-23FE-55F3-D0440AB00848">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 14:18:16 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pending With" id="B56CF7F3-58F2-356C-B6D2-11ACDC21E026">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 14:36:51 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Application Status ID1" id="71C38E92-8008-4BBB-0D19-8ADDC1F617DD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-03 14:38:25 UTC</createdTime>
+<generatorID>484CF8ED-1488-4378-3E5F-77F7C114F9C9</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>BE516474-E04E-87FD-A845-F9FD2C5DD882</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Application ID1" id="20C9A3F7-37D5-0EDB-3352-F9CC6B29080F">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-04 11:14:10 UTC</createdTime>
+<generatorID>4D6F27E2-3F3F-DB66-DC71-7A555E9DBF3E</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>E4F3B086-C1E8-1ACB-3EA4-2DE38AF483E5</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A0C1F2BE-8FCD-1332-D85A-287C8E85A10D" name="RE Application Request PK">
+<createdBy>Suresh</createdBy>
+<createdTime>2019-11-03 14:05:30 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B188050-894C-1BDD-46F4-015F05893B6C</attributeRef>
+<attributeRef>975DF0BF-21F9-3CCC-1842-15B49A60AB8F</attributeRef>
+<attributeRef>71C38E92-8008-4BBB-0D19-8ADDC1F617DD</attributeRef>
+<attributeRef>20C9A3F7-37D5-0EDB-3352-F9CC6B29080F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
