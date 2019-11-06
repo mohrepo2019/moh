@@ -25,7 +25,6 @@
 </engineerTo>
 <referedAttribute>E4F3B086-C1E8-1ACB-3EA4-2DE38AF483E5</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -38,7 +37,6 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -52,7 +50,6 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>A5A0BE2D-0CA0-AA5E-7274-AEA53AB2D080</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -66,7 +63,6 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -79,7 +75,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -105,7 +100,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -118,7 +112,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -131,7 +124,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>F030D121-33A1-4544-8E32-F0F2A37AC976</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -158,7 +150,6 @@
 </engineerTo>
 <referedAttribute>ACD4DD19-85C1-1220-D3C5-98143FBB86D0</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -172,7 +163,6 @@
 </engineerTo>
 <referedAttribute>FD1C318D-D747-1CED-BE58-CD16BE5A8A1E</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -186,7 +176,19 @@
 </engineerTo>
 <referedAttribute>90160B1B-CA40-AE02-5383-8AB12DAD1620</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="16CF6796-CB92-1917-9284-831AC3C7BC15">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-06 14:32:35 UTC</createdTime>
+<generatorID>45F7C775-92B7-2BAC-0A03-B2961A890093</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>5F3B8B36-6069-CFF4-0A49-C42EE74A4600</referedAttribute>
+<use>0</use>
 <domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -204,6 +206,7 @@
 <usedAttributes>
 <attributeRef>1ADF26C4-CCB3-AA8B-B0DB-7A723122B4FE</attributeRef>
 <attributeRef>140E1AEE-0D35-E367-A20B-E1B47669B6DF</attributeRef>
+<attributeRef>16CF6796-CB92-1917-9284-831AC3C7BC15</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

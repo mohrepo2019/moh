@@ -14,4 +14,31 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Post  Office  ID" id="0F751C08-9077-F25D-80B9-3B444877838E">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-06 14:32:47 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D2E860D-962B-34B7-B25F-3B6C72DEA930" name="Post Office Lookup PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-06 14:32:55 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F751C08-9077-F25D-80B9-3B444877838E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

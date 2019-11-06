@@ -23,7 +23,6 @@
 <item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
 </engineerTo>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -35,7 +34,6 @@
 <item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
 </engineerTo>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -49,7 +47,6 @@
 </engineerTo>
 <referedAttribute>4C74F480-343A-9029-5553-F94D6CD84347</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -62,7 +59,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT015</logicalDatatype>
 <domain>6E31F26F-C22B-DA89-60E4-525BD8B722D8</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -75,7 +71,6 @@
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -89,7 +84,6 @@
 </engineerTo>
 <referedAttribute>BE516474-E04E-87FD-A845-F9FD2C5DD882</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -103,8 +97,20 @@
 </engineerTo>
 <referedAttribute>E4F3B086-C1E8-1ACB-3EA4-2DE38AF483E5</referedAttribute>
 <use>0</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <domain>D7F887A5-7734-7176-5E27-B7E4944A34F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Service ID" id="A8CA3EC7-E8E2-672A-B2C4-AC83F6A62AD3">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-06 14:32:35 UTC</createdTime>
+<generatorID>4D6F27E2-3F3F-DB66-DC71-7A555E9DBF3E</generatorID>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<referedAttribute>5F3B8B36-6069-CFF4-0A49-C42EE74A4600</referedAttribute>
+<use>0</use>
+<domain>1530ECCD-39D4-D492-ABF4-627F269760F0</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -122,6 +128,7 @@
 <attributeRef>975DF0BF-21F9-3CCC-1842-15B49A60AB8F</attributeRef>
 <attributeRef>71C38E92-8008-4BBB-0D19-8ADDC1F617DD</attributeRef>
 <attributeRef>20C9A3F7-37D5-0EDB-3352-F9CC6B29080F</attributeRef>
+<attributeRef>A8CA3EC7-E8E2-672A-B2C4-AC83F6A62AD3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
