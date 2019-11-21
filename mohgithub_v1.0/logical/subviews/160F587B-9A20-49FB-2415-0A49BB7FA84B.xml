@@ -150,6 +150,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="665" y="397" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B1F493F2-C32D-66DB-0363-E46FF5055DF9" otype="Entity" vid="FBB7DD9B-B81C-A291-BA26-D1BD6650AF4A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="562" y="179" width="123" height="117"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BB993A50-4399-8BBF-29B6-4409D4F1ACC6" otype="Entity" vid="0B485CA9-94E8-6E70-D641-D090D2F990E9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="70" y="90" width="170" height="110"/>

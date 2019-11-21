@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1F493F2-C32D-66DB-0363-E46FF5055DF9" name="SR">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 08:32:53 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>

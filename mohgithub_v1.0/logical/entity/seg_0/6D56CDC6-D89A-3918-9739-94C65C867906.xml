@@ -14,4 +14,17 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RDP" id="DFD77D2A-8657-C178-093F-9A3EC06AE01E">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-11-21 08:32:33 UTC</createdTime>
+<ownerDesignName>mohgithub_v1.0</ownerDesignName>
+<engineerTo>
+<item key="79C8CC49-F2C1-987F-B170-1FD7CA1F6FFD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
