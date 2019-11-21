@@ -90,6 +90,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="130" y="210" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6D56CDC6-D89A-3918-9739-94C65C867906" otype="Entity" vid="F05474A5-A21D-3915-5B5B-16CC5C406D0E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="595" y="135" width="255" height="125"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6F8E8B9E-CCBD-126D-E97E-E5E14A66C84F" otype="Entity" vid="75F7B29B-FE92-9EF9-064C-13A81E5E5663">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="993" y="404" width="170" height="110"/>
